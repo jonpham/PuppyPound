@@ -40,6 +40,11 @@ gem 'bootstrap-sass', '~> 3.3.6'
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platform: :mri
+  gem 'faker', '~> 1.6.6'
+  gem 'better_errors'
+  gem 'binding_of_caller'
+  gem "awesome_print", require:"ap"
+  gem 'annotate'
 end
 
 group :development do
